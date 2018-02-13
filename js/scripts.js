@@ -15,3 +15,15 @@ $(document).ready(function(){
     });
     
 });
+
+$(document).ready(function(){
+    $("#reserveTableBtn").click(function(){
+        $("#reservationModal").modal();
+    });
+});
+
+$(document).ready(function(){
+    $("#loginBtn").click(function(){
+        $("#loginModal").modal();
+    });
+});

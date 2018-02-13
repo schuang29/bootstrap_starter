@@ -13,7 +13,7 @@ var gulp  = require('gulp'),
     htmlmin = require('gulp-htmlmin');
 
 gulp.task('sass', function(){
-    return gulp.src('./css/*.sass')
+    return gulp.src('./css/*.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('./css'));
 });

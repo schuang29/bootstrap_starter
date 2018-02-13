@@ -50,4 +50,19 @@ body {
 #carousel-button {
   right: 0px;
   position: absolute;
-  bottom: 0px; }
+  bottom: 1px; }
+
+.modal .modal-header {
+  background: #512DA8; }
+
+.modal .modal-title {
+  color: floralwhite; }
+
+.modal .close {
+  color: floralwhite; }
+
+.modal .modal-body {
+  background-color: #d1C4E9; }
+
+.modal .modal-footer {
+  background-color: #9575CD; }
